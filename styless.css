@@ -11,7 +11,7 @@
   background-size: cover;
   position: relative;
 
-  background-image: url("/images/teams.jpg");
+  background-image: url("https://images.pexels.com/photos/7550362/pexels-photo-7550362.jpeg?cs=srgb&dl=pexels-mart-production-7550362.jpg&fm=jpg");
 }
 .over-lay {
   position: absolute;
