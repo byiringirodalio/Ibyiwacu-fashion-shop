@@ -13,6 +13,7 @@
 
   background-image: url("https://images.pexels.com/photos/7550362/pexels-photo-7550362.jpeg?cs=srgb&dl=pexels-mart-production-7550362.jpg&fm=jpg");
 }
+
 .over-lay {
   position: absolute;
   background: #0000008a;
@@ -74,8 +75,9 @@
 .our-story p {
   color: #2c2c2c;
   margin-top: 1em;
-  font-size: 12px;
-  margin-right: 90px;
+
+  font-size: 70%;
+  margin-right: 20%;
   line-height: 25px;
   font-weight: 300;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -102,6 +104,7 @@
   color: #666161;
   cursor: pointer;
 }
+
 #one,
 #two,
 #three,
@@ -110,12 +113,13 @@
   display: block;
   height: 50px;
   width: 80vw;
+  padding-top: 10px;
 
   border-bottom: 1px solid #d5d2d2;
 
   margin-left: 85px;
-  margin-top: 10px;
-  font-size: small;
+
+  font-size: medium;
   color: #666161;
   cursor: pointer;
 }
