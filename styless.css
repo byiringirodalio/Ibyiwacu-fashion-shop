@@ -39,6 +39,13 @@
   color: white;
   display: inline;
   font-size: medium;
+  font-size: 120%;
+  cursor: pointer;
+}
+.links li:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 12px;
+  transition: 0.8s;
 }
 
 .works-wedo {
@@ -138,10 +145,13 @@
 .bar2 {
   transform: rotate(90deg);
   margin-top: -1px;
+  transition: 0.9s;
 }
 .change .bar1 {
   transform: rotate(45deg);
+  transition: 0.9s;
 }
 .change .bar2 {
   transform: rotate(-45deg);
 }
+
